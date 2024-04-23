@@ -1,0 +1,33 @@
+:root {
+  --color-white: #ffffff;
+  --color-black: #000000;
+  --color-gray-300: #dddddd;
+  --color-gray-200: #eeeeee;
+  --color-green-400: #627254;
+  --color-green-300: #76885b;
+  --color-yellow-300: #dcc27b;
+
+  --border-rounded: 1rem;
+  --border-rounded-md: 2rem;
+  --border-circle: 1000rem;
+
+  --padding-sm: 1rem;
+  --padding-md: 1.5rem;
+  --padding-lg: 2em;
+
+  --margin-sm: 1rem;
+  --margin-md: 2rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+@import "./components/calculator.scss";
+@import "./components/layout.scss";
+// @import "./components/";
+// @import "./components/";

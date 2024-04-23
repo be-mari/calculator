@@ -1,0 +1,12 @@
+.calculator {
+  margin: 0 auto;
+  display: grid;
+  padding-top: var(--padding-md);
+  grid-template-columns: repeat(1, 3fr);
+  &__result {
+    grid-column: 1 / 5;
+  }
+  &__btn {
+    background-color: var(--color-green-400);
+  }
+}
